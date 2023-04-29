@@ -14,7 +14,7 @@ import dill as pickle
 #import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
-from nltk.stem.wordnet import WordNetLemmatizer
+#from nltk.stem.wordnet import WordNetLemmatizer
 #from sklearn.feature_extraction.text import TfidfVectorizer
 #from sklearn.metrics.pairwise import linear_kernel
 import operator
@@ -40,7 +40,7 @@ with open('prices.pkl' , 'rb') as f:
 with open('sentence_processor.pkl' , 'rb') as f:
     process_sentences = pickle.load(f)
 
-lemmatizer = WordNetLemmatizer()
+#lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words('english'))
 
 app = Flask(__name__)
