@@ -11,14 +11,14 @@ import pandas as pd
 from werkzeug.security import generate_password_hash, check_password_hash
 import random
 import dill as pickle
-#import nltk
+import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 #from nltk.stem.wordnet import WordNetLemmatizer
 #from sklearn.feature_extraction.text import TfidfVectorizer
 #from sklearn.metrics.pairwise import linear_kernel
 import operator
-#nltk.download('stopwords')
+nltk.download('stopwords')
 #nltk.download('punkt')
 #nltk.download('averaged_perceptron_tagger')
 #nltk.download('wordnet')
