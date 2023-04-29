@@ -1,3 +1,6 @@
-nltk==3.8.1
+stopwords
+punkt
+averaged_perceptron_tagger
+wordnet
 
 
